@@ -1,0 +1,68 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "abrir cirurgia segura",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "Finalizar",
+            "Concluir",
+            "Terminar",
+            "Sair",
+            "Cancelar",
+            "Fechar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "e agora",
+            "o que fazer",
+            "preciso de ajudar",
+            "Me ajuda",
+            "Help",
+            "Ajuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "RemoteDataIntent",
+          "slots": [
+            {
+              "name": "input",
+              "type": "AMAZON.Person"
+            }
+          ],
+          "samples": [
+            "{input}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "voltar para o começo",
+            "ir para o início",
+            "reiniciar",
+            "voltar",
+            "recomeçar"
+          ]
+        },
+        {
+          "name": "StartIntent",
+          "slots": [],
+          "samples": [
+            "pode começar",
+            "inicar",
+            "começar"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "9"
+}
